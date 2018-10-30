@@ -55,7 +55,7 @@ function play() {
       reset();
       correct = true;
     }
-  } while (!correct)
+  } while (!correct);
 }
 
 function reset() {
@@ -76,6 +76,7 @@ Meðalrétt svör á sekúndu eru ${medalTimi.toFixed(2)}`;
 
   return result;
 }
+
 /**
  * Spyr einnar spurningar og skilar upplýsingum um svar (mögulega með því að
  * nota true, false og null ef notandi hættir). Birtir notanda propmpt til að
