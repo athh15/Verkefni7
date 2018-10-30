@@ -70,7 +70,7 @@ function reset() {
 
 function showScore() {
   const reiknaTima = (endTimi - startTimi) / 1000;
-  const medalTimi = reiknaTima / GAMES_TO_PLAY;
+  const medalTimi = reiknaTima / rettSvar;
   const result = `Þú svaraðir ${rettSvar} af 10 dæmum rétt á ${reiknaTima.toFixed(2)} sekúndum. 
 Meðalrétt svör á sekúndu eru ${medalTimi.toFixed(2)}`;
 
